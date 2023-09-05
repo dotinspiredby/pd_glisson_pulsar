@@ -1,0 +1,78 @@
+#N canvas 865 97 526 854 12;
+#X text 24 6 list of objects:;
+#X text 23 41 gr_dur - granular duration;
+#X text 23 69 gr_t_a - granular time a;
+#X text 23 83 gr_t_b - granular time b;
+#X text 23 55 gr_mode - select 0: steady signal \, 1: random intensity
+(a:b);
+#X text 23 97 gr_t - granular time;
+#X text 24 111 gr_pb - granular playback;
+#X text 23 29 gr_v - granular volume;
+#X text 24 126 gr_wsh - granular waveshape (0: triangle \, 1:saw \,
+2:square);
+#X text 24 140 gr_off - granulator off switcher (bang);
+#X text 24 154 gr_fr_other - granulator frequency 2;
+#X text 24 169 gr_fr_sine - granulator frequency 1 (sine wavshape)
+, f 52;
+#X text 24 197 gr_d - granulator depth (phase modulation waveshape)
+;
+#X text 24 183 gr_car - granulator carrier frequency (phase modulation
+waveshape), f 70;
+#X text 24 211 gr_m - granulator phase modulating frequency waveshape
+;
+#X text 24 227 gg_e - granulator(0)/glisson(1) gaussian envelope waveshape
+;
+#X text 24 256 gs_e - granulator(0)/glisson(1) sine envelope waveshape
+;
+#X text 25 271 gl_e - granulator linear +(0)-(1)/glisson +(2)-(3) envelope
+waveshape, f 69;
+#X text 24 287 gd_e - granulator(0)/glisson(1) dafeult envelope waveshape
+;
+#X text 24 301 gdv - granulator/glisson default envelope value parameter
+;
+#X text 24 243 gr_mu - granulator/glisson gaussian envelope mu parameter
+;
+#X text 23 343 fm_off - fm synthesis off switcher (bang);
+#X text 23 357 fm_carrier - fm synthesis carrier frequency;
+#X text 23 371 fm_mod - fm synthesis modulating frequency;
+#X text 23 384 fm_d - fm synthesis depth;
+#X text 23 330 fm_v - fm synthesis volume;
+#X text 23 399 fm_y - fm synthesis "yakut mode" (1/0 messages);
+#X text 23 413 fm_s - fm synthesis "yakut" smallest time interval before
+signal, f 67;
+#X text 23 428 fm_l - fm synthesis "yakut" biggest time interval before
+signal, f 65;
+#X text 23 441 fm_d_a - fm synthesis "yakut" random value left limit
+for depth, f 64;
+#X text 23 454 fm_d_b - fm synthesis "yakut" random value right limit
+for depth, f 64;
+#X text 24 485 gl_v - glisson volume;
+#X text 24 500 gl_gr_dur - glisson grain duration;
+#X text 24 515 gl_duty - glisson duty part;
+#X text 24 530 gl_on - glisson on/off switcher (1/0 messages);
+#X text 24 546 gl_fr_a - glisson start 'a' frequency;
+#X text 24 561 gl_fr_b - glisson end 'b' frequency;
+#X text 24 576 gl_cl - glisson cloud size;
+#X text 24 591 gl_gr - glisson glissando precision;
+#X text 24 607 gl_read - glisson cloud reading speed;
+#X text 24 622 gl_r_on - glisson cloud reading switcher (1/0 messages)
+;
+#X text 24 637 gl_ar - glisson cloud random value right limit for 'a'
+;
+#X text 24 652 gl_al - glisson cloud random value left limit for 'a'
+;
+#X text 24 666 gl_br - glisson cloud random value right limit for 'b'
+;
+#X text 24 681 gl_bl - glisson cloud random value left limit for 'b'
+;
+#X text 24 697 gl_b_monodir - glisson cloud monodirectional transfer
+for 'a', f 63;
+#X text 24 741 ks - karplus-strong monitor on (1/0 messages);
+#X text 24 755 ksbp_a - karplus-strong band-pass filter 'a' parameter
+;
+#X text 24 770 ksbp_b - karplus-strong band-pass filter 'b' parameter
+;
+#X text 24 784 ks_fr - karplus-strong frequency;
+#X text 24 797 ks_d - karplus-strong delay time parameter;
+#X text 24 811 ks_c - karplus-strong circular delay amplification;
+#X text 24 728 ks_v - karplus-strong volume;
